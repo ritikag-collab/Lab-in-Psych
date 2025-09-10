@@ -1,0 +1,1028 @@
+16.9238 	INFO 	Loaded monitor calibration from ['2024_09_01 09:56']
+16.9453 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+18.4771 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001327901EB90>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001327901EB30>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000132790D83D0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.4774 	EXP 	window1: backgroundImage = ''
+18.4774 	EXP 	window1: backgroundFit = 'none'
+18.7446 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+18.7448 	EXP 	window1: recordFrameIntervals = False
+18.9719 	EXP 	window1: recordFrameIntervals = True
+19.1556 	EXP 	Screen (0) actual frame rate measured at 60.02Hz
+19.1557 	EXP 	window1: recordFrameIntervals = False
+35.2666 	INFO 	keyboard.Keyboard is using iohub backend.
+35.2668 	INFO 	keyboard.Keyboard is using iohub backend.
+35.2669 	EXP 	Orientation Discrimination: status = STARTED
+35.5863 	EXP 	Created Intro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Intro', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+35.6071 	EXP 	Created Fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Fixation', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+35.6154 	EXP 	Created Stimulus = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.3, 0.3, 0.3]), colorSpace='rgb', contrast=0.3, depth=-2.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='Stimulus', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([7., 7.]), size=array([0.2, 0.2]), tex='sin', texRes=128.0, units='height', win=Window(...))
+35.6297 	EXP 	Created Bye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Bye', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for participating in the experiment!', units='height', win=Window(...), wrapWidth=1)
+0.2949 	EXP 	Intro: autoDraw = True
+5.0202 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+5.0265 	EXP 	Intro: autoDraw = False
+5.0265 	EXP 	Stimulus: ori = 3.0
+5.0265 	EXP 	Fixation: autoDraw = True
+5.9347 	DATA 	Keypress: up
+6.0387 	INFO 	Keyboard events cleared
+6.0381 	EXP 	Stimulus: autoDraw = True
+6.0381 	EXP 	Stimulus: tex = 'sin'
+6.0433 	EXP 	Fixation: autoDraw = False
+6.3416 	EXP 	Stimulus: autoDraw = False
+7.0779 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+7.0798 	DATA 	Keypress: down
+7.0919 	EXP 	Fixation: autoDraw = False
+7.0919 	EXP 	Stimulus: autoDraw = False
+7.0919 	EXP 	Stimulus: ori = -2.0
+7.0919 	EXP 	Fixation: autoDraw = True
+8.0925 	INFO 	Keyboard events cleared
+8.0917 	EXP 	Fixation: autoDraw = False
+8.0917 	EXP 	Stimulus: autoDraw = True
+8.3917 	EXP 	Stimulus: autoDraw = False
+9.2438 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+9.2455 	DATA 	Keypress: up
+9.2583 	EXP 	Fixation: autoDraw = False
+9.2583 	EXP 	Stimulus: autoDraw = False
+9.2583 	EXP 	Stimulus: ori = 0.0
+9.2583 	EXP 	Fixation: autoDraw = True
+10.2592 	INFO 	Keyboard events cleared
+10.2584 	EXP 	Fixation: autoDraw = False
+10.2584 	EXP 	Stimulus: autoDraw = True
+10.5579 	EXP 	Stimulus: autoDraw = False
+11.4126 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+11.4146 	DATA 	Keypress: down
+11.4249 	EXP 	Fixation: autoDraw = False
+11.4249 	EXP 	Stimulus: autoDraw = False
+11.4249 	EXP 	Stimulus: ori = 1.0
+11.4249 	EXP 	Fixation: autoDraw = True
+12.4253 	INFO 	Keyboard events cleared
+12.4246 	EXP 	Fixation: autoDraw = False
+12.4246 	EXP 	Stimulus: autoDraw = True
+12.7249 	EXP 	Stimulus: autoDraw = False
+13.1766 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+13.1791 	DATA 	Keypress: up
+13.1914 	EXP 	Fixation: autoDraw = False
+13.1914 	EXP 	Stimulus: autoDraw = False
+13.1914 	EXP 	Stimulus: ori = 0.0
+13.1914 	EXP 	Fixation: autoDraw = True
+14.1921 	INFO 	Keyboard events cleared
+14.1915 	EXP 	Fixation: autoDraw = False
+14.1915 	EXP 	Stimulus: autoDraw = True
+14.4917 	EXP 	Stimulus: autoDraw = False
+15.2775 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+15.2794 	DATA 	Keypress: up
+15.2916 	EXP 	Fixation: autoDraw = False
+15.2916 	EXP 	Stimulus: autoDraw = False
+15.2916 	EXP 	Stimulus: ori = 0.0
+15.2916 	EXP 	Fixation: autoDraw = True
+16.2924 	INFO 	Keyboard events cleared
+16.2915 	EXP 	Fixation: autoDraw = False
+16.2915 	EXP 	Stimulus: autoDraw = True
+16.5917 	EXP 	Stimulus: autoDraw = False
+17.1944 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+17.1966 	DATA 	Keypress: up
+17.2084 	EXP 	Fixation: autoDraw = False
+17.2084 	EXP 	Stimulus: autoDraw = False
+17.2084 	EXP 	Stimulus: ori = 0.0
+17.2084 	EXP 	Fixation: autoDraw = True
+18.2092 	INFO 	Keyboard events cleared
+18.2083 	EXP 	Fixation: autoDraw = False
+18.2083 	EXP 	Stimulus: autoDraw = True
+18.5084 	EXP 	Stimulus: autoDraw = False
+18.9599 	EXP 	New trial (rep=7, index=0): <Trial 7 (0 in rep 7) data={'thisN': 7, 'thisTrialN': 0, 'thisRepN': 7}>
+18.9629 	DATA 	Keypress: down
+18.9745 	EXP 	Fixation: autoDraw = False
+18.9745 	EXP 	Stimulus: autoDraw = False
+18.9745 	EXP 	Stimulus: ori = 0.0
+18.9745 	EXP 	Fixation: autoDraw = True
+19.9761 	INFO 	Keyboard events cleared
+19.9747 	EXP 	Fixation: autoDraw = False
+19.9747 	EXP 	Stimulus: autoDraw = True
+20.2745 	EXP 	Stimulus: autoDraw = False
+21.0775 	EXP 	New trial (rep=8, index=0): <Trial 8 (0 in rep 8) data={'thisN': 8, 'thisTrialN': 0, 'thisRepN': 8}>
+21.0794 	DATA 	Keypress: down
+21.0912 	EXP 	Fixation: autoDraw = False
+21.0912 	EXP 	Stimulus: autoDraw = False
+21.0912 	EXP 	Stimulus: ori = 0.0
+21.0912 	EXP 	Fixation: autoDraw = True
+22.0929 	INFO 	Keyboard events cleared
+22.0918 	EXP 	Fixation: autoDraw = False
+22.0918 	EXP 	Stimulus: autoDraw = True
+22.3916 	EXP 	Stimulus: autoDraw = False
+23.1610 	EXP 	New trial (rep=9, index=0): <Trial 9 (0 in rep 9) data={'thisN': 9, 'thisTrialN': 0, 'thisRepN': 9}>
+23.1629 	DATA 	Keypress: down
+23.1748 	EXP 	Fixation: autoDraw = False
+23.1748 	EXP 	Stimulus: autoDraw = False
+23.1748 	EXP 	Stimulus: ori = 0.0
+23.1748 	EXP 	Fixation: autoDraw = True
+24.1757 	INFO 	Keyboard events cleared
+24.1745 	EXP 	Fixation: autoDraw = False
+24.1745 	EXP 	Stimulus: autoDraw = True
+24.4744 	EXP 	Stimulus: autoDraw = False
+24.9957 	EXP 	New trial (rep=10, index=0): <Trial 10 (0 in rep 10) data={'thisN': 10, 'thisTrialN': 0, 'thisRepN': 10}>
+24.9978 	DATA 	Keypress: up
+25.0079 	EXP 	Fixation: autoDraw = False
+25.0079 	EXP 	Stimulus: autoDraw = False
+25.0079 	EXP 	Stimulus: ori = -2.0
+25.0079 	EXP 	Fixation: autoDraw = True
+26.0091 	INFO 	Keyboard events cleared
+26.0082 	EXP 	Fixation: autoDraw = False
+26.0082 	EXP 	Stimulus: autoDraw = True
+26.3079 	EXP 	Stimulus: autoDraw = False
+26.6442 	EXP 	New trial (rep=11, index=0): <Trial 11 (0 in rep 11) data={'thisN': 11, 'thisTrialN': 0, 'thisRepN': 11}>
+26.6465 	DATA 	Keypress: down
+26.6580 	EXP 	Fixation: autoDraw = False
+26.6580 	EXP 	Stimulus: autoDraw = False
+26.6580 	EXP 	Stimulus: ori = -3.0
+26.6580 	EXP 	Fixation: autoDraw = True
+27.6592 	INFO 	Keyboard events cleared
+27.6582 	EXP 	Fixation: autoDraw = False
+27.6582 	EXP 	Stimulus: autoDraw = True
+27.9582 	EXP 	Stimulus: autoDraw = False
+28.3101 	EXP 	New trial (rep=12, index=0): <Trial 12 (0 in rep 12) data={'thisN': 12, 'thisTrialN': 0, 'thisRepN': 12}>
+28.3119 	DATA 	Keypress: down
+28.3246 	EXP 	Fixation: autoDraw = False
+28.3246 	EXP 	Stimulus: autoDraw = False
+28.3246 	EXP 	Stimulus: ori = 0.0
+28.3246 	EXP 	Fixation: autoDraw = True
+29.3256 	INFO 	Keyboard events cleared
+29.3247 	EXP 	Fixation: autoDraw = False
+29.3247 	EXP 	Stimulus: autoDraw = True
+29.6243 	EXP 	Stimulus: autoDraw = False
+29.7948 	EXP 	New trial (rep=13, index=0): <Trial 13 (0 in rep 13) data={'thisN': 13, 'thisTrialN': 0, 'thisRepN': 13}>
+29.7970 	DATA 	Keypress: up
+29.8086 	EXP 	Fixation: autoDraw = False
+29.8086 	EXP 	Stimulus: autoDraw = False
+29.8086 	EXP 	Stimulus: ori = 2.0
+29.8086 	EXP 	Fixation: autoDraw = True
+30.8090 	INFO 	Keyboard events cleared
+30.8081 	EXP 	Fixation: autoDraw = False
+30.8081 	EXP 	Stimulus: autoDraw = True
+31.1077 	EXP 	Stimulus: autoDraw = False
+31.2940 	EXP 	New trial (rep=14, index=0): <Trial 14 (0 in rep 14) data={'thisN': 14, 'thisTrialN': 0, 'thisRepN': 14}>
+31.2960 	DATA 	Keypress: down
+31.3078 	EXP 	Fixation: autoDraw = False
+31.3078 	EXP 	Stimulus: autoDraw = False
+31.3078 	EXP 	Stimulus: ori = 4.0
+31.3078 	EXP 	Fixation: autoDraw = True
+32.3090 	INFO 	Keyboard events cleared
+32.3081 	EXP 	Fixation: autoDraw = False
+32.3081 	EXP 	Stimulus: autoDraw = True
+32.6080 	EXP 	Stimulus: autoDraw = False
+33.1952 	DATA 	Keypress: down
+33.2100 	EXP 	New trial (rep=15, index=0): <Trial 15 (0 in rep 15) data={'thisN': 15, 'thisTrialN': 0, 'thisRepN': 15}>
+33.2247 	EXP 	Fixation: autoDraw = False
+33.2247 	EXP 	Stimulus: autoDraw = False
+33.2247 	EXP 	Stimulus: ori = 3.0
+33.2247 	EXP 	Fixation: autoDraw = True
+34.2262 	INFO 	Keyboard events cleared
+34.2249 	EXP 	Fixation: autoDraw = False
+34.2249 	EXP 	Stimulus: autoDraw = True
+34.5248 	EXP 	Stimulus: autoDraw = False
+34.9098 	EXP 	New trial (rep=16, index=0): <Trial 16 (0 in rep 16) data={'thisN': 16, 'thisTrialN': 0, 'thisRepN': 16}>
+34.9128 	DATA 	Keypress: down
+34.9242 	EXP 	Fixation: autoDraw = False
+34.9242 	EXP 	Stimulus: autoDraw = False
+34.9242 	EXP 	Stimulus: ori = -5.0
+34.9242 	EXP 	Fixation: autoDraw = True
+35.9258 	INFO 	Keyboard events cleared
+35.9247 	EXP 	Fixation: autoDraw = False
+35.9247 	EXP 	Stimulus: autoDraw = True
+36.2244 	EXP 	Stimulus: autoDraw = False
+36.4942 	EXP 	New trial (rep=17, index=0): <Trial 17 (0 in rep 17) data={'thisN': 17, 'thisTrialN': 0, 'thisRepN': 17}>
+36.4966 	DATA 	Keypress: down
+36.5077 	EXP 	Fixation: autoDraw = False
+36.5077 	EXP 	Stimulus: autoDraw = False
+36.5077 	EXP 	Stimulus: ori = 2.0
+36.5077 	EXP 	Fixation: autoDraw = True
+37.5090 	INFO 	Keyboard events cleared
+37.5080 	EXP 	Fixation: autoDraw = False
+37.5080 	EXP 	Stimulus: autoDraw = True
+37.8079 	EXP 	Stimulus: autoDraw = False
+38.1775 	EXP 	New trial (rep=18, index=0): <Trial 18 (0 in rep 18) data={'thisN': 18, 'thisTrialN': 0, 'thisRepN': 18}>
+38.1798 	DATA 	Keypress: down
+38.1911 	EXP 	Fixation: autoDraw = False
+38.1911 	EXP 	Stimulus: autoDraw = False
+38.1911 	EXP 	Stimulus: ori = -3.0
+38.1911 	EXP 	Fixation: autoDraw = True
+39.1923 	INFO 	Keyboard events cleared
+39.1913 	EXP 	Fixation: autoDraw = False
+39.1913 	EXP 	Stimulus: autoDraw = True
+39.4910 	EXP 	Stimulus: autoDraw = False
+39.8608 	EXP 	New trial (rep=19, index=0): <Trial 19 (0 in rep 19) data={'thisN': 19, 'thisTrialN': 0, 'thisRepN': 19}>
+39.8627 	DATA 	Keypress: down
+39.8743 	EXP 	Fixation: autoDraw = False
+39.8743 	EXP 	Stimulus: autoDraw = False
+39.8743 	EXP 	Stimulus: ori = -3.0
+39.8743 	EXP 	Fixation: autoDraw = True
+40.8758 	INFO 	Keyboard events cleared
+40.8745 	EXP 	Fixation: autoDraw = False
+40.8745 	EXP 	Stimulus: autoDraw = True
+41.1744 	EXP 	Stimulus: autoDraw = False
+41.5441 	EXP 	New trial (rep=20, index=0): <Trial 20 (0 in rep 20) data={'thisN': 20, 'thisTrialN': 0, 'thisRepN': 20}>
+41.5459 	DATA 	Keypress: down
+41.5578 	EXP 	Fixation: autoDraw = False
+41.5578 	EXP 	Stimulus: autoDraw = False
+41.5578 	EXP 	Stimulus: ori = -2.0
+41.5578 	EXP 	Fixation: autoDraw = True
+42.5589 	INFO 	Keyboard events cleared
+42.5579 	EXP 	Fixation: autoDraw = False
+42.5579 	EXP 	Stimulus: autoDraw = True
+42.8577 	EXP 	Stimulus: autoDraw = False
+43.1935 	EXP 	New trial (rep=21, index=0): <Trial 21 (0 in rep 21) data={'thisN': 21, 'thisTrialN': 0, 'thisRepN': 21}>
+43.1958 	DATA 	Keypress: down
+43.2078 	EXP 	Fixation: autoDraw = False
+43.2078 	EXP 	Stimulus: autoDraw = False
+43.2078 	EXP 	Stimulus: ori = 0.0
+43.2078 	EXP 	Fixation: autoDraw = True
+44.2087 	INFO 	Keyboard events cleared
+44.2077 	EXP 	Fixation: autoDraw = False
+44.2077 	EXP 	Stimulus: autoDraw = True
+44.5079 	EXP 	Stimulus: autoDraw = False
+44.6100 	EXP 	New trial (rep=22, index=0): <Trial 22 (0 in rep 22) data={'thisN': 22, 'thisTrialN': 0, 'thisRepN': 22}>
+44.6122 	DATA 	Keypress: up
+44.6302 	EXP 	Fixation: autoDraw = False
+44.6302 	EXP 	Stimulus: autoDraw = False
+44.6302 	EXP 	Stimulus: ori = -4.0
+44.6302 	EXP 	Fixation: autoDraw = True
+45.6253 	INFO 	Keyboard events cleared
+45.6244 	EXP 	Stimulus: autoDraw = True
+45.6411 	EXP 	Fixation: autoDraw = False
+45.9243 	EXP 	Stimulus: autoDraw = False
+46.3118 	EXP 	New trial (rep=23, index=0): <Trial 23 (0 in rep 23) data={'thisN': 23, 'thisTrialN': 0, 'thisRepN': 23}>
+46.3140 	DATA 	Keypress: down
+46.3241 	EXP 	Fixation: autoDraw = False
+46.3241 	EXP 	Stimulus: autoDraw = False
+46.3241 	EXP 	Stimulus: ori = 0.0
+46.3241 	EXP 	Fixation: autoDraw = True
+47.3249 	INFO 	Keyboard events cleared
+47.3243 	EXP 	Fixation: autoDraw = False
+47.3243 	EXP 	Stimulus: autoDraw = True
+47.6240 	EXP 	Stimulus: autoDraw = False
+48.3102 	EXP 	New trial (rep=24, index=0): <Trial 24 (0 in rep 24) data={'thisN': 24, 'thisTrialN': 0, 'thisRepN': 24}>
+48.3120 	DATA 	Keypress: up
+48.3240 	EXP 	Fixation: autoDraw = False
+48.3240 	EXP 	Stimulus: autoDraw = False
+48.3240 	EXP 	Stimulus: ori = 3.0
+48.3240 	EXP 	Fixation: autoDraw = True
+49.3264 	INFO 	Keyboard events cleared
+49.3243 	EXP 	Fixation: autoDraw = False
+49.3243 	EXP 	Stimulus: autoDraw = True
+49.6241 	EXP 	Stimulus: autoDraw = False
+49.9759 	EXP 	New trial (rep=25, index=0): <Trial 25 (0 in rep 25) data={'thisN': 25, 'thisTrialN': 0, 'thisRepN': 25}>
+49.9780 	DATA 	Keypress: down
+49.9906 	EXP 	Fixation: autoDraw = False
+49.9906 	EXP 	Stimulus: autoDraw = False
+49.9906 	EXP 	Stimulus: ori = 0.0
+49.9906 	EXP 	Fixation: autoDraw = True
+50.9912 	INFO 	Keyboard events cleared
+50.9906 	EXP 	Fixation: autoDraw = False
+50.9906 	EXP 	Stimulus: autoDraw = True
+51.2910 	EXP 	Stimulus: autoDraw = False
+51.6789 	EXP 	New trial (rep=26, index=0): <Trial 26 (0 in rep 26) data={'thisN': 26, 'thisTrialN': 0, 'thisRepN': 26}>
+51.6810 	DATA 	Keypress: down
+51.6909 	EXP 	Fixation: autoDraw = False
+51.6909 	EXP 	Stimulus: autoDraw = False
+51.6909 	EXP 	Stimulus: ori = -5.0
+51.6909 	EXP 	Fixation: autoDraw = True
+52.6921 	INFO 	Keyboard events cleared
+52.6908 	EXP 	Fixation: autoDraw = False
+52.6908 	EXP 	Stimulus: autoDraw = True
+52.9909 	EXP 	Stimulus: autoDraw = False
+53.7108 	EXP 	New trial (rep=27, index=0): <Trial 27 (0 in rep 27) data={'thisN': 27, 'thisTrialN': 0, 'thisRepN': 27}>
+53.7131 	DATA 	Keypress: down
+53.7240 	EXP 	Fixation: autoDraw = False
+53.7240 	EXP 	Stimulus: autoDraw = False
+53.7240 	EXP 	Stimulus: ori = 0.0
+53.7240 	EXP 	Fixation: autoDraw = True
+54.7253 	INFO 	Keyboard events cleared
+54.7244 	EXP 	Fixation: autoDraw = False
+54.7244 	EXP 	Stimulus: autoDraw = True
+55.0239 	EXP 	Stimulus: autoDraw = False
+55.5100 	EXP 	New trial (rep=28, index=0): <Trial 28 (0 in rep 28) data={'thisN': 28, 'thisTrialN': 0, 'thisRepN': 28}>
+55.5120 	DATA 	Keypress: up
+55.5242 	EXP 	Fixation: autoDraw = False
+55.5242 	EXP 	Stimulus: autoDraw = False
+55.5242 	EXP 	Stimulus: ori = 0.0
+55.5242 	EXP 	Fixation: autoDraw = True
+56.5251 	INFO 	Keyboard events cleared
+56.5242 	EXP 	Fixation: autoDraw = False
+56.5242 	EXP 	Stimulus: autoDraw = True
+56.8243 	EXP 	Stimulus: autoDraw = False
+57.1623 	DATA 	Keypress: up
+57.1756 	EXP 	New trial (rep=29, index=0): <Trial 29 (0 in rep 29) data={'thisN': 29, 'thisTrialN': 0, 'thisRepN': 29}>
+57.1910 	EXP 	Fixation: autoDraw = False
+57.1910 	EXP 	Stimulus: autoDraw = False
+57.1910 	EXP 	Stimulus: ori = 0.0
+57.1910 	EXP 	Fixation: autoDraw = True
+58.1917 	INFO 	Keyboard events cleared
+58.1907 	EXP 	Fixation: autoDraw = False
+58.1907 	EXP 	Stimulus: autoDraw = True
+58.4910 	EXP 	Stimulus: autoDraw = False
+58.8430 	EXP 	New trial (rep=30, index=0): <Trial 30 (0 in rep 30) data={'thisN': 30, 'thisTrialN': 0, 'thisRepN': 30}>
+58.8450 	DATA 	Keypress: up
+58.8572 	EXP 	Fixation: autoDraw = False
+58.8572 	EXP 	Stimulus: autoDraw = False
+58.8572 	EXP 	Stimulus: ori = 0.0
+58.8572 	EXP 	Fixation: autoDraw = True
+59.8584 	INFO 	Keyboard events cleared
+59.8573 	EXP 	Fixation: autoDraw = False
+59.8573 	EXP 	Stimulus: autoDraw = True
+60.1574 	EXP 	Stimulus: autoDraw = False
+60.6306 	EXP 	New trial (rep=31, index=0): <Trial 31 (0 in rep 31) data={'thisN': 31, 'thisTrialN': 0, 'thisRepN': 31}>
+60.6326 	DATA 	Keypress: up
+60.6405 	EXP 	Fixation: autoDraw = False
+60.6405 	EXP 	Stimulus: autoDraw = False
+60.6405 	EXP 	Stimulus: ori = 0.0
+60.6405 	EXP 	Fixation: autoDraw = True
+61.6419 	INFO 	Keyboard events cleared
+61.6409 	EXP 	Fixation: autoDraw = False
+61.6409 	EXP 	Stimulus: autoDraw = True
+61.9408 	EXP 	Stimulus: autoDraw = False
+62.2437 	EXP 	New trial (rep=32, index=0): <Trial 32 (0 in rep 32) data={'thisN': 32, 'thisTrialN': 0, 'thisRepN': 32}>
+62.2459 	DATA 	Keypress: down
+62.2575 	EXP 	Fixation: autoDraw = False
+62.2575 	EXP 	Stimulus: autoDraw = False
+62.2575 	EXP 	Stimulus: ori = -4.0
+62.2575 	EXP 	Fixation: autoDraw = True
+63.2589 	INFO 	Keyboard events cleared
+63.2579 	EXP 	Fixation: autoDraw = False
+63.2579 	EXP 	Stimulus: autoDraw = True
+63.5572 	EXP 	Stimulus: autoDraw = False
+64.0285 	DATA 	Keypress: down
+64.0423 	EXP 	New trial (rep=33, index=0): <Trial 33 (0 in rep 33) data={'thisN': 33, 'thisTrialN': 0, 'thisRepN': 33}>
+64.0570 	EXP 	Fixation: autoDraw = False
+64.0570 	EXP 	Stimulus: autoDraw = False
+64.0570 	EXP 	Stimulus: ori = 0.0
+64.0570 	EXP 	Fixation: autoDraw = True
+65.0591 	INFO 	Keyboard events cleared
+65.0581 	EXP 	Fixation: autoDraw = False
+65.0581 	EXP 	Stimulus: autoDraw = True
+65.3574 	EXP 	Stimulus: autoDraw = False
+65.8264 	EXP 	New trial (rep=34, index=0): <Trial 34 (0 in rep 34) data={'thisN': 34, 'thisTrialN': 0, 'thisRepN': 34}>
+65.8287 	DATA 	Keypress: up
+65.8408 	EXP 	Fixation: autoDraw = False
+65.8408 	EXP 	Stimulus: autoDraw = False
+65.8408 	EXP 	Stimulus: ori = 0.0
+65.8408 	EXP 	Fixation: autoDraw = True
+66.8419 	INFO 	Keyboard events cleared
+66.8408 	EXP 	Fixation: autoDraw = False
+66.8408 	EXP 	Stimulus: autoDraw = True
+67.1410 	EXP 	Stimulus: autoDraw = False
+67.7430 	EXP 	New trial (rep=35, index=0): <Trial 35 (0 in rep 35) data={'thisN': 35, 'thisTrialN': 0, 'thisRepN': 35}>
+67.7449 	DATA 	Keypress: down
+67.7570 	EXP 	Fixation: autoDraw = False
+67.7570 	EXP 	Stimulus: autoDraw = False
+67.7570 	EXP 	Stimulus: ori = 3.0
+67.7570 	EXP 	Fixation: autoDraw = True
+68.7584 	INFO 	Keyboard events cleared
+68.7573 	EXP 	Fixation: autoDraw = False
+68.7573 	EXP 	Stimulus: autoDraw = True
+69.0573 	EXP 	Stimulus: autoDraw = False
+69.2614 	EXP 	New trial (rep=36, index=0): <Trial 36 (0 in rep 36) data={'thisN': 36, 'thisTrialN': 0, 'thisRepN': 36}>
+69.2638 	DATA 	Keypress: up
+69.2738 	EXP 	Fixation: autoDraw = False
+69.2738 	EXP 	Stimulus: autoDraw = False
+69.2738 	EXP 	Stimulus: ori = 0.0
+69.2738 	EXP 	Fixation: autoDraw = True
+70.2751 	INFO 	Keyboard events cleared
+70.2742 	EXP 	Fixation: autoDraw = False
+70.2742 	EXP 	Stimulus: autoDraw = True
+70.5737 	EXP 	Stimulus: autoDraw = False
+71.5945 	EXP 	New trial (rep=37, index=0): <Trial 37 (0 in rep 37) data={'thisN': 37, 'thisTrialN': 0, 'thisRepN': 37}>
+71.5966 	DATA 	Keypress: up
+71.6070 	EXP 	Fixation: autoDraw = False
+71.6070 	EXP 	Stimulus: autoDraw = False
+71.6070 	EXP 	Stimulus: ori = 0.0
+71.6070 	EXP 	Fixation: autoDraw = True
+72.6088 	INFO 	Keyboard events cleared
+72.6071 	EXP 	Fixation: autoDraw = False
+72.6071 	EXP 	Stimulus: autoDraw = True
+72.9070 	EXP 	Stimulus: autoDraw = False
+73.4777 	EXP 	New trial (rep=38, index=0): <Trial 38 (0 in rep 38) data={'thisN': 38, 'thisTrialN': 0, 'thisRepN': 38}>
+73.4793 	DATA 	Keypress: down
+73.4903 	EXP 	Fixation: autoDraw = False
+73.4903 	EXP 	Stimulus: autoDraw = False
+73.4903 	EXP 	Stimulus: ori = -2.0
+73.4903 	EXP 	Fixation: autoDraw = True
+74.4918 	INFO 	Keyboard events cleared
+74.4908 	EXP 	Fixation: autoDraw = False
+74.4908 	EXP 	Stimulus: autoDraw = True
+74.7906 	EXP 	Stimulus: autoDraw = False
+75.2458 	DATA 	Keypress: down
+75.2587 	EXP 	New trial (rep=39, index=0): <Trial 39 (0 in rep 39) data={'thisN': 39, 'thisTrialN': 0, 'thisRepN': 39}>
+75.2737 	EXP 	Fixation: autoDraw = False
+75.2737 	EXP 	Stimulus: autoDraw = False
+75.2737 	EXP 	Stimulus: ori = 2.0
+75.2737 	EXP 	Fixation: autoDraw = True
+76.2747 	INFO 	Keyboard events cleared
+76.2738 	EXP 	Fixation: autoDraw = False
+76.2738 	EXP 	Stimulus: autoDraw = True
+76.5740 	EXP 	Stimulus: autoDraw = False
+77.2093 	EXP 	New trial (rep=40, index=0): <Trial 40 (0 in rep 40) data={'thisN': 40, 'thisTrialN': 0, 'thisRepN': 40}>
+77.2117 	DATA 	Keypress: up
+77.2235 	EXP 	Fixation: autoDraw = False
+77.2235 	EXP 	Stimulus: autoDraw = False
+77.2235 	EXP 	Stimulus: ori = -5.0
+77.2235 	EXP 	Fixation: autoDraw = True
+78.2250 	INFO 	Keyboard events cleared
+78.2240 	EXP 	Fixation: autoDraw = False
+78.2240 	EXP 	Stimulus: autoDraw = True
+78.5239 	EXP 	Stimulus: autoDraw = False
+79.3263 	EXP 	New trial (rep=41, index=0): <Trial 41 (0 in rep 41) data={'thisN': 41, 'thisTrialN': 0, 'thisRepN': 41}>
+79.3281 	DATA 	Keypress: down
+79.3405 	EXP 	Fixation: autoDraw = False
+79.3405 	EXP 	Stimulus: autoDraw = False
+79.3405 	EXP 	Stimulus: ori = 0.0
+79.3405 	EXP 	Fixation: autoDraw = True
+80.3418 	INFO 	Keyboard events cleared
+80.3408 	EXP 	Fixation: autoDraw = False
+80.3408 	EXP 	Stimulus: autoDraw = True
+80.6404 	EXP 	Stimulus: autoDraw = False
+81.4589 	EXP 	New trial (rep=42, index=0): <Trial 42 (0 in rep 42) data={'thisN': 42, 'thisTrialN': 0, 'thisRepN': 42}>
+81.4605 	DATA 	Keypress: up
+81.4736 	EXP 	Fixation: autoDraw = False
+81.4736 	EXP 	Stimulus: autoDraw = False
+81.4736 	EXP 	Stimulus: ori = 0.0
+81.4736 	EXP 	Fixation: autoDraw = True
+82.4743 	INFO 	Keyboard events cleared
+82.4735 	EXP 	Fixation: autoDraw = False
+82.4735 	EXP 	Stimulus: autoDraw = True
+82.7734 	EXP 	Stimulus: autoDraw = False
+83.5590 	EXP 	New trial (rep=43, index=0): <Trial 43 (0 in rep 43) data={'thisN': 43, 'thisTrialN': 0, 'thisRepN': 43}>
+83.5611 	DATA 	Keypress: down
+83.5741 	EXP 	Fixation: autoDraw = False
+83.5741 	EXP 	Stimulus: autoDraw = False
+83.5741 	EXP 	Stimulus: ori = 0.0
+83.5741 	EXP 	Fixation: autoDraw = True
+84.5741 	INFO 	Keyboard events cleared
+84.5734 	EXP 	Fixation: autoDraw = False
+84.5734 	EXP 	Stimulus: autoDraw = True
+84.8732 	EXP 	Stimulus: autoDraw = False
+85.5764 	EXP 	New trial (rep=44, index=0): <Trial 44 (0 in rep 44) data={'thisN': 44, 'thisTrialN': 0, 'thisRepN': 44}>
+85.5783 	DATA 	Keypress: up
+85.5912 	EXP 	Fixation: autoDraw = False
+85.5912 	EXP 	Stimulus: autoDraw = False
+85.5912 	EXP 	Stimulus: ori = -3.0
+85.5912 	EXP 	Fixation: autoDraw = True
+86.5921 	INFO 	Keyboard events cleared
+86.5910 	EXP 	Stimulus: autoDraw = True
+86.6069 	EXP 	Fixation: autoDraw = False
+86.8899 	EXP 	Stimulus: autoDraw = False
+87.3589 	EXP 	New trial (rep=45, index=0): <Trial 45 (0 in rep 45) data={'thisN': 45, 'thisTrialN': 0, 'thisRepN': 45}>
+87.3606 	DATA 	Keypress: down
+87.3734 	EXP 	Fixation: autoDraw = False
+87.3734 	EXP 	Stimulus: autoDraw = False
+87.3734 	EXP 	Stimulus: ori = -4.0
+87.3734 	EXP 	Fixation: autoDraw = True
+88.3747 	INFO 	Keyboard events cleared
+88.3737 	EXP 	Fixation: autoDraw = False
+88.3737 	EXP 	Stimulus: autoDraw = True
+88.6736 	EXP 	Stimulus: autoDraw = False
+89.3431 	EXP 	New trial (rep=46, index=0): <Trial 46 (0 in rep 46) data={'thisN': 46, 'thisTrialN': 0, 'thisRepN': 46}>
+89.3453 	DATA 	Keypress: down
+89.3569 	EXP 	Fixation: autoDraw = False
+89.3569 	EXP 	Stimulus: autoDraw = False
+89.3569 	EXP 	Stimulus: ori = 0.0
+89.3569 	EXP 	Fixation: autoDraw = True
+90.3573 	INFO 	Keyboard events cleared
+90.3566 	EXP 	Fixation: autoDraw = False
+90.3566 	EXP 	Stimulus: autoDraw = True
+90.6568 	EXP 	Stimulus: autoDraw = False
+91.1091 	EXP 	New trial (rep=47, index=0): <Trial 47 (0 in rep 47) data={'thisN': 47, 'thisTrialN': 0, 'thisRepN': 47}>
+91.1114 	DATA 	Keypress: up
+91.1231 	EXP 	Fixation: autoDraw = False
+91.1231 	EXP 	Stimulus: autoDraw = False
+91.1231 	EXP 	Stimulus: ori = -3.0
+91.1231 	EXP 	Fixation: autoDraw = True
+92.1253 	INFO 	Keyboard events cleared
+92.1238 	EXP 	Fixation: autoDraw = False
+92.1238 	EXP 	Stimulus: autoDraw = True
+92.4237 	EXP 	Stimulus: autoDraw = False
+92.8429 	EXP 	New trial (rep=48, index=0): <Trial 48 (0 in rep 48) data={'thisN': 48, 'thisTrialN': 0, 'thisRepN': 48}>
+92.8450 	DATA 	Keypress: down
+92.8567 	EXP 	Fixation: autoDraw = False
+92.8567 	EXP 	Stimulus: autoDraw = False
+92.8567 	EXP 	Stimulus: ori = -4.0
+92.8567 	EXP 	Fixation: autoDraw = True
+93.8575 	INFO 	Keyboard events cleared
+93.8567 	EXP 	Fixation: autoDraw = False
+93.8567 	EXP 	Stimulus: autoDraw = True
+94.1569 	EXP 	Stimulus: autoDraw = False
+94.5919 	EXP 	New trial (rep=49, index=0): <Trial 49 (0 in rep 49) data={'thisN': 49, 'thisTrialN': 0, 'thisRepN': 49}>
+94.5936 	DATA 	Keypress: down
+94.6068 	EXP 	Fixation: autoDraw = False
+94.6068 	EXP 	Stimulus: autoDraw = False
+94.6068 	EXP 	Stimulus: ori = 3.0
+94.6068 	EXP 	Fixation: autoDraw = True
+95.6078 	INFO 	Keyboard events cleared
+95.6067 	EXP 	Fixation: autoDraw = False
+95.6067 	EXP 	Stimulus: autoDraw = True
+95.9068 	EXP 	Stimulus: autoDraw = False
+98.0258 	EXP 	New trial (rep=50, index=0): <Trial 50 (0 in rep 50) data={'thisN': 50, 'thisTrialN': 0, 'thisRepN': 50}>
+98.0278 	DATA 	Keypress: up
+98.0403 	EXP 	Fixation: autoDraw = False
+98.0403 	EXP 	Stimulus: autoDraw = False
+98.0403 	EXP 	Stimulus: ori = 0.0
+98.0403 	EXP 	Fixation: autoDraw = True
+99.0413 	INFO 	Keyboard events cleared
+99.0403 	EXP 	Fixation: autoDraw = False
+99.0403 	EXP 	Stimulus: autoDraw = True
+99.3402 	EXP 	Stimulus: autoDraw = False
+99.7098 	EXP 	New trial (rep=51, index=0): <Trial 51 (0 in rep 51) data={'thisN': 51, 'thisTrialN': 0, 'thisRepN': 51}>
+99.7125 	DATA 	Keypress: down
+99.7234 	EXP 	Fixation: autoDraw = False
+99.7234 	EXP 	Stimulus: autoDraw = False
+99.7234 	EXP 	Stimulus: ori = 0.0
+99.7234 	EXP 	Fixation: autoDraw = True
+100.7247 	INFO 	Keyboard events cleared
+100.7236 	EXP 	Fixation: autoDraw = False
+100.7236 	EXP 	Stimulus: autoDraw = True
+101.0236 	EXP 	Stimulus: autoDraw = False
+101.4104 	DATA 	Keypress: down
+101.4263 	EXP 	New trial (rep=52, index=0): <Trial 52 (0 in rep 52) data={'thisN': 52, 'thisTrialN': 0, 'thisRepN': 52}>
+101.4400 	EXP 	Fixation: autoDraw = False
+101.4400 	EXP 	Stimulus: autoDraw = False
+101.4400 	EXP 	Stimulus: ori = 0.0
+101.4400 	EXP 	Fixation: autoDraw = True
+102.4411 	INFO 	Keyboard events cleared
+102.4401 	EXP 	Fixation: autoDraw = False
+102.4401 	EXP 	Stimulus: autoDraw = True
+102.7400 	EXP 	Stimulus: autoDraw = False
+103.2427 	EXP 	New trial (rep=53, index=0): <Trial 53 (0 in rep 53) data={'thisN': 53, 'thisTrialN': 0, 'thisRepN': 53}>
+103.2447 	DATA 	Keypress: down
+103.2566 	EXP 	Fixation: autoDraw = False
+103.2566 	EXP 	Stimulus: autoDraw = False
+103.2566 	EXP 	Stimulus: ori = 0.0
+103.2566 	EXP 	Fixation: autoDraw = True
+104.2578 	INFO 	Keyboard events cleared
+104.2568 	EXP 	Fixation: autoDraw = False
+104.2568 	EXP 	Stimulus: autoDraw = True
+104.5567 	EXP 	Stimulus: autoDraw = False
+104.8606 	EXP 	New trial (rep=54, index=0): <Trial 54 (0 in rep 54) data={'thisN': 54, 'thisTrialN': 0, 'thisRepN': 54}>
+104.8638 	DATA 	Keypress: down
+104.8738 	EXP 	Fixation: autoDraw = False
+104.8738 	EXP 	Stimulus: autoDraw = False
+104.8738 	EXP 	Stimulus: ori = 0.0
+104.8738 	EXP 	Fixation: autoDraw = True
+105.8743 	INFO 	Keyboard events cleared
+105.8733 	EXP 	Fixation: autoDraw = False
+105.8733 	EXP 	Stimulus: autoDraw = True
+106.1732 	EXP 	Stimulus: autoDraw = False
+106.6600 	EXP 	New trial (rep=55, index=0): <Trial 55 (0 in rep 55) data={'thisN': 55, 'thisTrialN': 0, 'thisRepN': 55}>
+106.6624 	DATA 	Keypress: down
+106.6733 	EXP 	Fixation: autoDraw = False
+106.6733 	EXP 	Stimulus: autoDraw = False
+106.6733 	EXP 	Stimulus: ori = -5.0
+106.6733 	EXP 	Fixation: autoDraw = True
+107.6745 	INFO 	Keyboard events cleared
+107.6734 	EXP 	Fixation: autoDraw = False
+107.6734 	EXP 	Stimulus: autoDraw = True
+107.9734 	EXP 	Stimulus: autoDraw = False
+108.6275 	DATA 	Keypress: down
+108.6423 	EXP 	New trial (rep=56, index=0): <Trial 56 (0 in rep 56) data={'thisN': 56, 'thisTrialN': 0, 'thisRepN': 56}>
+108.6564 	EXP 	Fixation: autoDraw = False
+108.6564 	EXP 	Stimulus: autoDraw = False
+108.6564 	EXP 	Stimulus: ori = -3.0
+108.6564 	EXP 	Fixation: autoDraw = True
+109.6581 	INFO 	Keyboard events cleared
+109.6569 	EXP 	Fixation: autoDraw = False
+109.6569 	EXP 	Stimulus: autoDraw = True
+109.9567 	EXP 	Stimulus: autoDraw = False
+110.2255 	EXP 	New trial (rep=57, index=0): <Trial 57 (0 in rep 57) data={'thisN': 57, 'thisTrialN': 0, 'thisRepN': 57}>
+110.2272 	DATA 	Keypress: down
+110.2402 	EXP 	Fixation: autoDraw = False
+110.2402 	EXP 	Stimulus: autoDraw = False
+110.2402 	EXP 	Stimulus: ori = 0.0
+110.2402 	EXP 	Fixation: autoDraw = True
+111.2408 	INFO 	Keyboard events cleared
+111.2401 	EXP 	Fixation: autoDraw = False
+111.2401 	EXP 	Stimulus: autoDraw = True
+111.5399 	EXP 	Stimulus: autoDraw = False
+112.0615 	DATA 	Keypress: down
+112.0762 	EXP 	New trial (rep=58, index=0): <Trial 58 (0 in rep 58) data={'thisN': 58, 'thisTrialN': 0, 'thisRepN': 58}>
+112.0901 	EXP 	Fixation: autoDraw = False
+112.0901 	EXP 	Stimulus: autoDraw = False
+112.0901 	EXP 	Stimulus: ori = 0.0
+112.0901 	EXP 	Fixation: autoDraw = True
+113.0909 	INFO 	Keyboard events cleared
+113.0898 	EXP 	Fixation: autoDraw = False
+113.0898 	EXP 	Stimulus: autoDraw = True
+113.3896 	EXP 	Stimulus: autoDraw = False
+113.5601 	EXP 	New trial (rep=59, index=0): <Trial 59 (0 in rep 59) data={'thisN': 59, 'thisTrialN': 0, 'thisRepN': 59}>
+113.5619 	DATA 	Keypress: up
+113.5730 	EXP 	Fixation: autoDraw = False
+113.5730 	EXP 	Stimulus: autoDraw = False
+113.5730 	EXP 	Stimulus: ori = -3.0
+113.5730 	EXP 	Fixation: autoDraw = True
+114.5741 	INFO 	Keyboard events cleared
+114.5731 	EXP 	Fixation: autoDraw = False
+114.5731 	EXP 	Stimulus: autoDraw = True
+114.8734 	EXP 	Stimulus: autoDraw = False
+115.0929 	EXP 	New trial (rep=60, index=0): <Trial 60 (0 in rep 60) data={'thisN': 60, 'thisTrialN': 0, 'thisRepN': 60}>
+115.0949 	DATA 	Keypress: down
+115.1070 	EXP 	Fixation: autoDraw = False
+115.1070 	EXP 	Stimulus: autoDraw = False
+115.1070 	EXP 	Stimulus: ori = -2.0
+115.1070 	EXP 	Fixation: autoDraw = True
+116.1077 	INFO 	Keyboard events cleared
+116.1067 	EXP 	Fixation: autoDraw = False
+116.1067 	EXP 	Stimulus: autoDraw = True
+116.4066 	EXP 	Stimulus: autoDraw = False
+116.6920 	EXP 	New trial (rep=61, index=0): <Trial 61 (0 in rep 61) data={'thisN': 61, 'thisTrialN': 0, 'thisRepN': 61}>
+116.6941 	DATA 	Keypress: down
+116.7066 	EXP 	Fixation: autoDraw = False
+116.7066 	EXP 	Stimulus: autoDraw = False
+116.7066 	EXP 	Stimulus: ori = 4.0
+116.7066 	EXP 	Fixation: autoDraw = True
+117.7078 	INFO 	Keyboard events cleared
+117.7068 	EXP 	Fixation: autoDraw = False
+117.7068 	EXP 	Stimulus: autoDraw = True
+118.0064 	EXP 	Stimulus: autoDraw = False
+118.2765 	EXP 	New trial (rep=62, index=0): <Trial 62 (0 in rep 62) data={'thisN': 62, 'thisTrialN': 0, 'thisRepN': 62}>
+118.2794 	DATA 	Keypress: down
+118.2895 	EXP 	Fixation: autoDraw = False
+118.2895 	EXP 	Stimulus: autoDraw = False
+118.2895 	EXP 	Stimulus: ori = -2.0
+118.2895 	EXP 	Fixation: autoDraw = True
+119.2908 	INFO 	Keyboard events cleared
+119.2899 	EXP 	Fixation: autoDraw = False
+119.2899 	EXP 	Stimulus: autoDraw = True
+119.5894 	EXP 	Stimulus: autoDraw = False
+119.8087 	EXP 	New trial (rep=63, index=0): <Trial 63 (0 in rep 63) data={'thisN': 63, 'thisTrialN': 0, 'thisRepN': 63}>
+119.8110 	DATA 	Keypress: down
+119.8228 	EXP 	Fixation: autoDraw = False
+119.8228 	EXP 	Stimulus: autoDraw = False
+119.8228 	EXP 	Stimulus: ori = 3.0
+119.8228 	EXP 	Fixation: autoDraw = True
+120.8241 	INFO 	Keyboard events cleared
+120.8232 	EXP 	Fixation: autoDraw = False
+120.8232 	EXP 	Stimulus: autoDraw = True
+121.1229 	EXP 	Stimulus: autoDraw = False
+121.4281 	EXP 	New trial (rep=64, index=0): <Trial 64 (0 in rep 64) data={'thisN': 64, 'thisTrialN': 0, 'thisRepN': 64}>
+121.4309 	DATA 	Keypress: down
+121.4394 	EXP 	Fixation: autoDraw = False
+121.4394 	EXP 	Stimulus: autoDraw = False
+121.4394 	EXP 	Stimulus: ori = 0.0
+121.4394 	EXP 	Fixation: autoDraw = True
+122.4407 	INFO 	Keyboard events cleared
+122.4398 	EXP 	Fixation: autoDraw = False
+122.4398 	EXP 	Stimulus: autoDraw = True
+122.7398 	EXP 	Stimulus: autoDraw = False
+123.1763 	EXP 	New trial (rep=65, index=0): <Trial 65 (0 in rep 65) data={'thisN': 65, 'thisTrialN': 0, 'thisRepN': 65}>
+123.1786 	DATA 	Keypress: up
+123.1896 	EXP 	Fixation: autoDraw = False
+123.1896 	EXP 	Stimulus: autoDraw = False
+123.1896 	EXP 	Stimulus: ori = 0.0
+123.1896 	EXP 	Fixation: autoDraw = True
+124.1908 	INFO 	Keyboard events cleared
+124.1898 	EXP 	Fixation: autoDraw = False
+124.1898 	EXP 	Stimulus: autoDraw = True
+124.4897 	EXP 	Stimulus: autoDraw = False
+124.9091 	EXP 	New trial (rep=66, index=0): <Trial 66 (0 in rep 66) data={'thisN': 66, 'thisTrialN': 0, 'thisRepN': 66}>
+124.9115 	DATA 	Keypress: up
+124.9228 	EXP 	Fixation: autoDraw = False
+124.9228 	EXP 	Stimulus: autoDraw = False
+124.9228 	EXP 	Stimulus: ori = -4.0
+124.9228 	EXP 	Fixation: autoDraw = True
+125.9242 	INFO 	Keyboard events cleared
+125.9232 	EXP 	Fixation: autoDraw = False
+125.9232 	EXP 	Stimulus: autoDraw = True
+126.2229 	EXP 	Stimulus: autoDraw = False
+126.3754 	EXP 	New trial (rep=67, index=0): <Trial 67 (0 in rep 67) data={'thisN': 67, 'thisTrialN': 0, 'thisRepN': 67}>
+126.3784 	DATA 	Keypress: down
+126.3897 	EXP 	Fixation: autoDraw = False
+126.3897 	EXP 	Stimulus: autoDraw = False
+126.3897 	EXP 	Stimulus: ori = 0.0
+126.3897 	EXP 	Fixation: autoDraw = True
+127.3900 	INFO 	Keyboard events cleared
+127.3893 	EXP 	Fixation: autoDraw = False
+127.3893 	EXP 	Stimulus: autoDraw = True
+127.6894 	EXP 	Stimulus: autoDraw = False
+127.9111 	EXP 	New trial (rep=68, index=0): <Trial 68 (0 in rep 68) data={'thisN': 68, 'thisTrialN': 0, 'thisRepN': 68}>
+127.9138 	DATA 	Keypress: down
+127.9229 	EXP 	Fixation: autoDraw = False
+127.9229 	EXP 	Stimulus: autoDraw = False
+127.9229 	EXP 	Stimulus: ori = -5.0
+127.9229 	EXP 	Fixation: autoDraw = True
+128.9240 	INFO 	Keyboard events cleared
+128.9230 	EXP 	Fixation: autoDraw = False
+128.9230 	EXP 	Stimulus: autoDraw = True
+129.2228 	EXP 	Stimulus: autoDraw = False
+129.5418 	EXP 	New trial (rep=69, index=0): <Trial 69 (0 in rep 69) data={'thisN': 69, 'thisTrialN': 0, 'thisRepN': 69}>
+129.5447 	DATA 	Keypress: down
+129.5562 	EXP 	Fixation: autoDraw = False
+129.5562 	EXP 	Stimulus: autoDraw = False
+129.5562 	EXP 	Stimulus: ori = 2.0
+129.5562 	EXP 	Fixation: autoDraw = True
+130.5572 	INFO 	Keyboard events cleared
+130.5562 	EXP 	Fixation: autoDraw = False
+130.5562 	EXP 	Stimulus: autoDraw = True
+130.8563 	EXP 	Stimulus: autoDraw = False
+131.2756 	EXP 	New trial (rep=70, index=0): <Trial 70 (0 in rep 70) data={'thisN': 70, 'thisTrialN': 0, 'thisRepN': 70}>
+131.2776 	DATA 	Keypress: down
+131.2894 	EXP 	Fixation: autoDraw = False
+131.2894 	EXP 	Stimulus: autoDraw = False
+131.2894 	EXP 	Stimulus: ori = 0.0
+131.2894 	EXP 	Fixation: autoDraw = True
+132.2903 	INFO 	Keyboard events cleared
+132.2894 	EXP 	Fixation: autoDraw = False
+132.2894 	EXP 	Stimulus: autoDraw = True
+132.5895 	EXP 	Stimulus: autoDraw = False
+132.8411 	EXP 	New trial (rep=71, index=0): <Trial 71 (0 in rep 71) data={'thisN': 71, 'thisTrialN': 0, 'thisRepN': 71}>
+132.8429 	DATA 	Keypress: down
+132.8561 	EXP 	Fixation: autoDraw = False
+132.8561 	EXP 	Stimulus: autoDraw = False
+132.8561 	EXP 	Stimulus: ori = -3.0
+132.8561 	EXP 	Fixation: autoDraw = True
+133.8568 	INFO 	Keyboard events cleared
+133.8561 	EXP 	Fixation: autoDraw = False
+133.8561 	EXP 	Stimulus: autoDraw = True
+134.1562 	EXP 	Stimulus: autoDraw = False
+134.4598 	EXP 	New trial (rep=72, index=0): <Trial 72 (0 in rep 72) data={'thisN': 72, 'thisTrialN': 0, 'thisRepN': 72}>
+134.4620 	DATA 	Keypress: down
+134.4727 	EXP 	Fixation: autoDraw = False
+134.4727 	EXP 	Stimulus: autoDraw = False
+134.4727 	EXP 	Stimulus: ori = 2.0
+134.4727 	EXP 	Fixation: autoDraw = True
+135.4733 	INFO 	Keyboard events cleared
+135.4725 	EXP 	Fixation: autoDraw = False
+135.4725 	EXP 	Stimulus: autoDraw = True
+135.7728 	EXP 	Stimulus: autoDraw = False
+136.1085 	EXP 	New trial (rep=73, index=0): <Trial 73 (0 in rep 73) data={'thisN': 73, 'thisTrialN': 0, 'thisRepN': 73}>
+136.1104 	DATA 	Keypress: down
+136.1225 	EXP 	Fixation: autoDraw = False
+136.1225 	EXP 	Stimulus: autoDraw = False
+136.1225 	EXP 	Stimulus: ori = 4.0
+136.1225 	EXP 	Fixation: autoDraw = True
+137.1259 	INFO 	Keyboard events cleared
+137.1233 	EXP 	Fixation: autoDraw = False
+137.1233 	EXP 	Stimulus: autoDraw = True
+137.4230 	EXP 	Stimulus: autoDraw = False
+137.5412 	EXP 	New trial (rep=74, index=0): <Trial 74 (0 in rep 74) data={'thisN': 74, 'thisTrialN': 0, 'thisRepN': 74}>
+137.5430 	DATA 	Keypress: down
+137.5560 	EXP 	Fixation: autoDraw = False
+137.5560 	EXP 	Stimulus: autoDraw = False
+137.5560 	EXP 	Stimulus: ori = 4.0
+137.5560 	EXP 	Fixation: autoDraw = True
+138.5569 	INFO 	Keyboard events cleared
+138.5561 	EXP 	Fixation: autoDraw = False
+138.5561 	EXP 	Stimulus: autoDraw = True
+138.8562 	EXP 	Stimulus: autoDraw = False
+139.0265 	EXP 	New trial (rep=75, index=0): <Trial 75 (0 in rep 75) data={'thisN': 75, 'thisTrialN': 0, 'thisRepN': 75}>
+139.0285 	DATA 	Keypress: down
+139.0393 	EXP 	Fixation: autoDraw = False
+139.0393 	EXP 	Stimulus: autoDraw = False
+139.0393 	EXP 	Stimulus: ori = 3.0
+139.0393 	EXP 	Fixation: autoDraw = True
+140.0405 	INFO 	Keyboard events cleared
+140.0395 	EXP 	Fixation: autoDraw = False
+140.0395 	EXP 	Stimulus: autoDraw = True
+140.3395 	EXP 	Stimulus: autoDraw = False
+140.5252 	EXP 	New trial (rep=76, index=0): <Trial 76 (0 in rep 76) data={'thisN': 76, 'thisTrialN': 0, 'thisRepN': 76}>
+140.5272 	DATA 	Keypress: down
+140.5394 	EXP 	Fixation: autoDraw = False
+140.5394 	EXP 	Stimulus: autoDraw = False
+140.5394 	EXP 	Stimulus: ori = 2.0
+140.5394 	EXP 	Fixation: autoDraw = True
+141.5402 	INFO 	Keyboard events cleared
+141.5393 	EXP 	Fixation: autoDraw = False
+141.5393 	EXP 	Stimulus: autoDraw = True
+141.8390 	EXP 	Stimulus: autoDraw = False
+142.0431 	EXP 	New trial (rep=77, index=0): <Trial 77 (0 in rep 77) data={'thisN': 77, 'thisTrialN': 0, 'thisRepN': 77}>
+142.0451 	DATA 	Keypress: down
+142.0559 	EXP 	Fixation: autoDraw = False
+142.0559 	EXP 	Stimulus: autoDraw = False
+142.0559 	EXP 	Stimulus: ori = 0.0
+142.0559 	EXP 	Fixation: autoDraw = True
+143.0565 	INFO 	Keyboard events cleared
+143.0557 	EXP 	Fixation: autoDraw = False
+143.0557 	EXP 	Stimulus: autoDraw = True
+143.3556 	EXP 	Stimulus: autoDraw = False
+143.4745 	EXP 	New trial (rep=78, index=0): <Trial 78 (0 in rep 78) data={'thisN': 78, 'thisTrialN': 0, 'thisRepN': 78}>
+143.4770 	DATA 	Keypress: down
+143.4889 	EXP 	Fixation: autoDraw = False
+143.4889 	EXP 	Stimulus: autoDraw = False
+143.4889 	EXP 	Stimulus: ori = 0.0
+143.4889 	EXP 	Fixation: autoDraw = True
+144.4904 	INFO 	Keyboard events cleared
+144.4894 	EXP 	Fixation: autoDraw = False
+144.4894 	EXP 	Stimulus: autoDraw = True
+144.7894 	EXP 	Stimulus: autoDraw = False
+144.9414 	EXP 	New trial (rep=79, index=0): <Trial 79 (0 in rep 79) data={'thisN': 79, 'thisTrialN': 0, 'thisRepN': 79}>
+144.9431 	DATA 	Keypress: down
+144.9558 	EXP 	Fixation: autoDraw = False
+144.9558 	EXP 	Stimulus: autoDraw = False
+144.9558 	EXP 	Stimulus: ori = 0.0
+144.9558 	EXP 	Fixation: autoDraw = True
+145.9573 	INFO 	Keyboard events cleared
+145.9563 	EXP 	Fixation: autoDraw = False
+145.9563 	EXP 	Stimulus: autoDraw = True
+146.2557 	EXP 	Stimulus: autoDraw = False
+146.6763 	EXP 	New trial (rep=80, index=0): <Trial 80 (0 in rep 80) data={'thisN': 80, 'thisTrialN': 0, 'thisRepN': 80}>
+146.6789 	DATA 	Keypress: down
+146.6889 	EXP 	Fixation: autoDraw = False
+146.6889 	EXP 	Stimulus: autoDraw = False
+146.6889 	EXP 	Stimulus: ori = 0.0
+146.6889 	EXP 	Fixation: autoDraw = True
+147.6910 	INFO 	Keyboard events cleared
+147.6900 	EXP 	Fixation: autoDraw = False
+147.6900 	EXP 	Stimulus: autoDraw = True
+147.9891 	EXP 	Stimulus: autoDraw = False
+148.6081 	EXP 	New trial (rep=81, index=0): <Trial 81 (0 in rep 81) data={'thisN': 81, 'thisTrialN': 0, 'thisRepN': 81}>
+148.6100 	DATA 	Keypress: down
+148.6224 	EXP 	Fixation: autoDraw = False
+148.6224 	EXP 	Stimulus: autoDraw = False
+148.6224 	EXP 	Stimulus: ori = 0.0
+148.6224 	EXP 	Fixation: autoDraw = True
+149.6239 	INFO 	Keyboard events cleared
+149.6232 	EXP 	Fixation: autoDraw = False
+149.6232 	EXP 	Stimulus: autoDraw = True
+149.9225 	EXP 	Stimulus: autoDraw = False
+150.1091 	EXP 	New trial (rep=82, index=0): <Trial 82 (0 in rep 82) data={'thisN': 82, 'thisTrialN': 0, 'thisRepN': 82}>
+150.1112 	DATA 	Keypress: down
+150.1224 	EXP 	Fixation: autoDraw = False
+150.1224 	EXP 	Stimulus: autoDraw = False
+150.1224 	EXP 	Stimulus: ori = 0.0
+150.1224 	EXP 	Fixation: autoDraw = True
+151.1227 	INFO 	Keyboard events cleared
+151.1222 	EXP 	Fixation: autoDraw = False
+151.1222 	EXP 	Stimulus: autoDraw = True
+151.4221 	EXP 	Stimulus: autoDraw = False
+151.8425 	EXP 	New trial (rep=83, index=0): <Trial 83 (0 in rep 83) data={'thisN': 83, 'thisTrialN': 0, 'thisRepN': 83}>
+151.8450 	DATA 	Keypress: up
+151.8558 	EXP 	Fixation: autoDraw = False
+151.8558 	EXP 	Stimulus: autoDraw = False
+151.8558 	EXP 	Stimulus: ori = 2.0
+151.8558 	EXP 	Fixation: autoDraw = True
+152.8569 	INFO 	Keyboard events cleared
+152.8558 	EXP 	Fixation: autoDraw = False
+152.8558 	EXP 	Stimulus: autoDraw = True
+153.1557 	EXP 	Stimulus: autoDraw = False
+153.4756 	EXP 	New trial (rep=84, index=0): <Trial 84 (0 in rep 84) data={'thisN': 84, 'thisTrialN': 0, 'thisRepN': 84}>
+153.4779 	DATA 	Keypress: up
+153.4892 	EXP 	Fixation: autoDraw = False
+153.4892 	EXP 	Stimulus: autoDraw = False
+153.4892 	EXP 	Stimulus: ori = 2.0
+153.4892 	EXP 	Fixation: autoDraw = True
+154.4903 	INFO 	Keyboard events cleared
+154.4893 	EXP 	Fixation: autoDraw = False
+154.4893 	EXP 	Stimulus: autoDraw = True
+154.7890 	EXP 	Stimulus: autoDraw = False
+155.2431 	EXP 	New trial (rep=85, index=0): <Trial 85 (0 in rep 85) data={'thisN': 85, 'thisTrialN': 0, 'thisRepN': 85}>
+155.2467 	DATA 	Keypress: up
+155.2557 	EXP 	Fixation: autoDraw = False
+155.2557 	EXP 	Stimulus: autoDraw = False
+155.2557 	EXP 	Stimulus: ori = 0.0
+155.2557 	EXP 	Fixation: autoDraw = True
+156.2571 	INFO 	Keyboard events cleared
+156.2562 	EXP 	Fixation: autoDraw = False
+156.2562 	EXP 	Stimulus: autoDraw = True
+156.5559 	EXP 	Stimulus: autoDraw = False
+156.7912 	EXP 	New trial (rep=86, index=0): <Trial 86 (0 in rep 86) data={'thisN': 86, 'thisTrialN': 0, 'thisRepN': 86}>
+156.7935 	DATA 	Keypress: up
+156.8055 	EXP 	Fixation: autoDraw = False
+156.8055 	EXP 	Stimulus: autoDraw = False
+156.8055 	EXP 	Stimulus: ori = 0.0
+156.8055 	EXP 	Fixation: autoDraw = True
+157.8067 	INFO 	Keyboard events cleared
+157.8058 	EXP 	Fixation: autoDraw = False
+157.8058 	EXP 	Stimulus: autoDraw = True
+158.1058 	EXP 	Stimulus: autoDraw = False
+158.3755 	EXP 	New trial (rep=87, index=0): <Trial 87 (0 in rep 87) data={'thisN': 87, 'thisTrialN': 0, 'thisRepN': 87}>
+158.3784 	DATA 	Keypress: up
+158.3891 	EXP 	Fixation: autoDraw = False
+158.3891 	EXP 	Stimulus: autoDraw = False
+158.3891 	EXP 	Stimulus: ori = -2.0
+158.3891 	EXP 	Fixation: autoDraw = True
+159.3903 	INFO 	Keyboard events cleared
+159.3893 	EXP 	Fixation: autoDraw = False
+159.3893 	EXP 	Stimulus: autoDraw = True
+159.6891 	EXP 	Stimulus: autoDraw = False
+160.1765 	EXP 	New trial (rep=88, index=0): <Trial 88 (0 in rep 88) data={'thisN': 88, 'thisTrialN': 0, 'thisRepN': 88}>
+160.1786 	DATA 	Keypress: down
+160.1890 	EXP 	Fixation: autoDraw = False
+160.1890 	EXP 	Stimulus: autoDraw = False
+160.1890 	EXP 	Stimulus: ori = 4.0
+160.1890 	EXP 	Fixation: autoDraw = True
+161.1900 	INFO 	Keyboard events cleared
+161.1892 	EXP 	Fixation: autoDraw = False
+161.1892 	EXP 	Stimulus: autoDraw = True
+161.4890 	EXP 	Stimulus: autoDraw = False
+161.9097 	EXP 	New trial (rep=89, index=0): <Trial 89 (0 in rep 89) data={'thisN': 89, 'thisTrialN': 0, 'thisRepN': 89}>
+161.9116 	DATA 	Keypress: up
+161.9226 	EXP 	Fixation: autoDraw = False
+161.9226 	EXP 	Stimulus: autoDraw = False
+161.9226 	EXP 	Stimulus: ori = 0.0
+161.9226 	EXP 	Fixation: autoDraw = True
+162.9248 	INFO 	Keyboard events cleared
+162.9228 	EXP 	Fixation: autoDraw = False
+162.9228 	EXP 	Stimulus: autoDraw = True
+163.2223 	EXP 	Stimulus: autoDraw = False
+163.6761 	EXP 	New trial (rep=90, index=0): <Trial 90 (0 in rep 90) data={'thisN': 90, 'thisTrialN': 0, 'thisRepN': 90}>
+163.6779 	DATA 	Keypress: down
+163.6891 	EXP 	Fixation: autoDraw = False
+163.6891 	EXP 	Stimulus: autoDraw = False
+163.6891 	EXP 	Stimulus: ori = 3.0
+163.6891 	EXP 	Fixation: autoDraw = True
+164.6905 	INFO 	Keyboard events cleared
+164.6895 	EXP 	Fixation: autoDraw = False
+164.6895 	EXP 	Stimulus: autoDraw = True
+164.9889 	EXP 	Stimulus: autoDraw = False
+166.5266 	EXP 	New trial (rep=91, index=0): <Trial 91 (0 in rep 91) data={'thisN': 91, 'thisTrialN': 0, 'thisRepN': 91}>
+166.5286 	DATA 	Keypress: down
+166.5388 	EXP 	Fixation: autoDraw = False
+166.5388 	EXP 	Stimulus: autoDraw = False
+166.5388 	EXP 	Stimulus: ori = 0.0
+166.5388 	EXP 	Fixation: autoDraw = True
+167.5400 	INFO 	Keyboard events cleared
+167.5389 	EXP 	Fixation: autoDraw = False
+167.5389 	EXP 	Stimulus: autoDraw = True
+167.8386 	EXP 	Stimulus: autoDraw = False
+168.5774 	DATA 	Keypress: up
+168.5908 	EXP 	New trial (rep=92, index=0): <Trial 92 (0 in rep 92) data={'thisN': 92, 'thisTrialN': 0, 'thisRepN': 92}>
+168.6056 	EXP 	Fixation: autoDraw = False
+168.6056 	EXP 	Stimulus: autoDraw = False
+168.6056 	EXP 	Stimulus: ori = 3.0
+168.6056 	EXP 	Fixation: autoDraw = True
+169.6066 	INFO 	Keyboard events cleared
+169.6056 	EXP 	Fixation: autoDraw = False
+169.6056 	EXP 	Stimulus: autoDraw = True
+169.9055 	EXP 	Stimulus: autoDraw = False
+170.2587 	EXP 	New trial (rep=93, index=0): <Trial 93 (0 in rep 93) data={'thisN': 93, 'thisTrialN': 0, 'thisRepN': 93}>
+170.2607 	DATA 	Keypress: down
+170.2722 	EXP 	Fixation: autoDraw = False
+170.2722 	EXP 	Stimulus: autoDraw = False
+170.2722 	EXP 	Stimulus: ori = 0.0
+170.2722 	EXP 	Fixation: autoDraw = True
+171.2735 	INFO 	Keyboard events cleared
+171.2725 	EXP 	Fixation: autoDraw = False
+171.2725 	EXP 	Stimulus: autoDraw = True
+171.5720 	EXP 	Stimulus: autoDraw = False
+172.0415 	EXP 	New trial (rep=94, index=0): <Trial 94 (0 in rep 94) data={'thisN': 94, 'thisTrialN': 0, 'thisRepN': 94}>
+172.0436 	DATA 	Keypress: down
+172.0552 	EXP 	Fixation: autoDraw = False
+172.0552 	EXP 	Stimulus: autoDraw = False
+172.0552 	EXP 	Stimulus: ori = -2.0
+172.0552 	EXP 	Fixation: autoDraw = True
+173.0568 	INFO 	Keyboard events cleared
+173.0556 	EXP 	Fixation: autoDraw = False
+173.0556 	EXP 	Stimulus: autoDraw = True
+173.3555 	EXP 	Stimulus: autoDraw = False
+173.6745 	EXP 	New trial (rep=95, index=0): <Trial 95 (0 in rep 95) data={'thisN': 95, 'thisTrialN': 0, 'thisRepN': 95}>
+173.6763 	DATA 	Keypress: down
+173.6888 	EXP 	Fixation: autoDraw = False
+173.6888 	EXP 	Stimulus: autoDraw = False
+173.6888 	EXP 	Stimulus: ori = 1.0
+173.6888 	EXP 	Fixation: autoDraw = True
+174.6898 	INFO 	Keyboard events cleared
+174.6889 	EXP 	Fixation: autoDraw = False
+174.6889 	EXP 	Stimulus: autoDraw = True
+174.9888 	EXP 	Stimulus: autoDraw = False
+175.3091 	EXP 	New trial (rep=96, index=0): <Trial 96 (0 in rep 96) data={'thisN': 96, 'thisTrialN': 0, 'thisRepN': 96}>
+175.3112 	DATA 	Keypress: down
+175.3228 	EXP 	Fixation: autoDraw = False
+175.3228 	EXP 	Stimulus: autoDraw = False
+175.3228 	EXP 	Stimulus: ori = 0.0
+175.3228 	EXP 	Fixation: autoDraw = True
+176.3232 	INFO 	Keyboard events cleared
+176.3222 	EXP 	Fixation: autoDraw = False
+176.3222 	EXP 	Stimulus: autoDraw = True
+176.6221 	EXP 	Stimulus: autoDraw = False
+176.9745 	EXP 	New trial (rep=97, index=0): <Trial 97 (0 in rep 97) data={'thisN': 97, 'thisTrialN': 0, 'thisRepN': 97}>
+176.9762 	DATA 	Keypress: down
+176.9888 	EXP 	Fixation: autoDraw = False
+176.9888 	EXP 	Stimulus: autoDraw = False
+176.9888 	EXP 	Stimulus: ori = 0.0
+176.9888 	EXP 	Fixation: autoDraw = True
+177.9893 	INFO 	Keyboard events cleared
+177.9885 	EXP 	Fixation: autoDraw = False
+177.9885 	EXP 	Stimulus: autoDraw = True
+178.2884 	EXP 	Stimulus: autoDraw = False
+178.6069 	EXP 	New trial (rep=98, index=0): <Trial 98 (0 in rep 98) data={'thisN': 98, 'thisTrialN': 0, 'thisRepN': 98}>
+178.6086 	DATA 	Keypress: up
+178.6220 	EXP 	Fixation: autoDraw = False
+178.6220 	EXP 	Stimulus: autoDraw = False
+178.6220 	EXP 	Stimulus: ori = -2.0
+178.6220 	EXP 	Fixation: autoDraw = True
+179.6225 	INFO 	Keyboard events cleared
+179.6219 	EXP 	Fixation: autoDraw = False
+179.6219 	EXP 	Stimulus: autoDraw = True
+179.9220 	EXP 	Stimulus: autoDraw = False
+181.2749 	EXP 	New trial (rep=99, index=0): <Trial 99 (0 in rep 99) data={'thisN': 99, 'thisTrialN': 0, 'thisRepN': 99}>
+181.2786 	DATA 	Keypress: down
+181.2885 	EXP 	Fixation: autoDraw = False
+181.2885 	EXP 	Stimulus: autoDraw = False
+181.2885 	EXP 	Stimulus: ori = -3.0
+181.2885 	EXP 	Fixation: autoDraw = True
+182.2896 	INFO 	Keyboard events cleared
+182.2887 	EXP 	Fixation: autoDraw = False
+182.2887 	EXP 	Stimulus: autoDraw = True
+182.5884 	EXP 	Stimulus: autoDraw = False
+183.1958 	DATA 	Keypress: down
+183.2050 	EXP 	Fixation: autoDraw = False
+183.2050 	EXP 	Stimulus: autoDraw = False
+183.2050 	EXP 	Bye: autoDraw = True
+185.0414 	DATA 	Keypress: escape
+185.2049 	EXP 	Bye: autoDraw = False
+185.2049 	EXP 	Bye: autoDraw = False
+185.2053 	EXP 	Orientation Discrimination: status = STOPPED
+185.2521 	INFO 	saved data to 'C:\\Users\\ritik\\Lab in Psychology\\Psychopy Experiments\\Orientation Discrimination\\data/P1_Orientation Discrimination_2025-09-09_11h25.55.830.csv'
+185.2557 	INFO 	saved data to C:\Users\ritik\Lab in Psychology\Psychopy Experiments\Orientation Discrimination\data/P1_Orientation Discrimination_2025-09-09_11h25.55.830.psydat
